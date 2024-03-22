@@ -1,0 +1,93 @@
+{
+    "Curriculum":"Curriculum",
+    "AboutTitle": "About me",
+    "AboutText": "I'm a website and mobile app developer looking for my first opportunity in this market. I'm Brazilian, living in São Paulo, I'm 18 years old and I'm currently in doing a bachelor of engineering technology, studying and improving in this area! I have solid knowledge in HTML and CSS and intermediate knowledge in JS and React Native. Currently, my main interests in development areas are web development and application development. You can check out more about me on my",
+
+    "Languages": "Languages",
+    
+    "LanguagesText": [
+        {
+            "text":"Portuguese (Native)"
+        },
+        {
+            "text":"English (Advanced)"
+        }
+    ],
+    "Skills": "Skills",
+    "SkillsText": [
+        {
+            "text":"Web development"
+        },
+        {
+            "text":"Landing pages"
+        },
+        {
+            "text":"Simple portfolio pages"
+        },
+        {
+            "text":"Use and application of APIs on the website"
+        },
+        {
+            "text":"Creation of simple APIs"
+        },
+        {
+            "text":"Responsiveness on devices"
+        },
+        {
+            "text":"Mobile development (React Native)"
+        },
+        {
+            "text":"Optimized component creation and reuse"
+        },
+        {
+            "text":"Use and application of APIs in the app"
+        },
+        {
+            "text":"Use of NPM and libraries to use in the app"
+        },
+        {
+            "text":"Design"
+        },
+        {
+            "text":"Logo creation"
+        },
+        {
+            "text":"UI/UX concepts in the applications"
+        },
+        {
+            "text":"Use of Adobe Photoshop and Illustrator"
+        },
+        {
+            "text":"Brief acquaintance with figma"
+        }
+    ],
+    "Techs":"Technologies/Software that I have studied",
+    "TechsText":[
+        {
+            "text":"Html and CSS (Intermediate)"
+        },
+        {
+            "text":"Javascript (Intermediate)"
+        },
+        {
+            "text":"Adobe Illustrator (Intermediate)"
+        },
+        {
+            "text":"React Native (Intermediate)"
+        },
+        {
+            "text":"Node.js (Beginner)"
+        },
+        {
+            "text":"C# (Beginner)"
+        },
+        {
+            "text":"Java (Beginner)"
+        },
+        {
+            "text":"SQL (Beginner)"
+        }
+    ],
+
+    "Projects":"Projects"
+}

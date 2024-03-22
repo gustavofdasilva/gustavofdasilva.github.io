@@ -1,0 +1,91 @@
+{
+    "Curriculum": "Currículo",
+    "AboutTitle":"Sobre mim",
+    "AboutText":"Sou um desenvolvedor de sites e de aplicativos mobile em busca da minha primeira oportunidade nesse mercado. Sou brasileiro, morando em São Paulo, tenho 18 anos e atualmente estou fazendo graduação em engenharia de software, estudando e me aperfeiçoando nessa área! Possuo sólidos conhecimentos em HTML e CSS e conhecimento intermediário em JS e React Native. Atualmente, meus principais interesses em áreas de desenvolvimento são de desenvolvimento web e desenvolvimento de aplicativos. Você pode conferir mais sobre mim no meu",
+
+    "Languages": "Idiomas",
+    "LanguagesText": [ 
+        {
+            "text":"Português (Nativo)"
+        },
+        {
+            "text":"Inglês (Avançado)"
+        }
+    ],
+    "Skills": "Habilidades",
+    "SkillsText": [
+        {
+            "text":"Desenvolvimento Web"
+        },
+        {
+            "text":"Landing pages"
+        },
+        {
+            "text":"Páginas de portfolio simples"
+        },
+        {
+            "text":"Uso e aplicação de APIs no site"
+        },
+        {
+            "text":"Criação de APIs simples"
+        },
+        {
+            "text":"Responsividade nos dispositivos"
+        },
+        {
+            "text":"Desenvolvimento Mobile (React Native)"
+        },
+        {
+            "text":"Criação e reutilização otimizada de componentes"
+        },
+        {
+            "text":"Uso e aplicação de APIs no app"
+        },
+        {
+            "text":"Uso do NPM e bibliotecas para utilizar no app"
+        },
+        {
+            "text":"Design"
+        },
+        {
+            "text":"Criação de logo"
+        },
+        {
+            "text":"Bases do UI/UX nas aplicações"
+        },
+        {
+            "text":"Uso do Adobe Photoshop e Illustrator"
+        },
+        {
+            "text":"Breve conhecimento do Figma"
+        }
+    ],
+    "Techs":"Tecnologias/Softwares que já estudei",
+    "TechsText":[
+        {
+            "text":"Html e CSS (Intermediário)"
+        },
+        {
+            "text":"Javascript (Intermediário)"
+        },
+        {
+            "text":"Adobe Illustrator (Intermediário)"
+        },
+        {
+            "text":"React Native (Intermediário)"
+        },
+        {
+            "text":"Node.js (Iniciante)"
+        },
+        {
+            "text":"C# (Iniciante)"
+        },
+        {
+            "text":"Java (Iniciante)"
+        },
+        {
+            "text":"SQL (Iniciante)"
+        }
+    ],
+    "Projects":"Projetos"
+}

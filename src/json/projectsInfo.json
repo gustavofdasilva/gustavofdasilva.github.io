@@ -1,0 +1,172 @@
+[   
+
+{
+    "title" : {
+        "ptbr": "Gym Tracker (Aplicativo)",
+        "en": "Gym Tracker (App)"
+    },
+
+    "desc" : {
+        "ptbr": "Meu projeto mais ambicioso e complexo, feito como trabalho de conclusão de curso na escola. É um aplicativo para monitorar treinos e dieta da academia, incentivando os usuários a terem uma vida mais saudável. Atualmente o repositório se encontra privado e o aplicativo está disponível para download apenas na playstore (Android).",
+        "en": "My most ambitious and complex project, done as a course completion project at school. It is an application for monitoring gym workouts and diet, encouraging users to lead a healthier life. Currently the repository is private and the application is only available for download on the playstore (Android)."
+    },
+
+    "status": "completed",
+    "img" : "/imgs/projects/gymtracker.jpg",
+    "link":"https://play.google.com/store/apps/details?id=com.gymtrackerapp.gymtracker"
+
+},
+
+{
+    "title" : {
+        "ptbr": "Projeto Rede Social",
+        "en":"Social Media Project"
+    },
+
+    "desc" : {
+        "ptbr": "Projeto simples que fiz em React e Bootstrap no frontend e Node.js, MongoDB e Express no backend. Fiz com a intenção de entender melhor o desenvolvimento fullstack.",
+        "en": "Simple project I made in React and Bootstrap on the frontend and Node.js, MongoDB and Express on the backend. I did it with the intention of better understanding fullstack development."
+    },
+
+    "status": "completed",
+    "img" : "/imgs/projects/redesocial.png",
+    "link":"https://github.com/gustavofdasilva/Projeto-Rede-social"
+
+},
+
+{
+    "title" : {
+        "ptbr": "Lista de Receitas (Aplicativo)",
+        "en":"Recipe list (App)"
+    },
+
+    "desc" : {
+        "ptbr": "Projeto simples feito em React Native para praticar e aprender a utilizar APIs (que requer uma chave de acesso) em um aplicativo.",
+        "en":"Simple project made in React Native to practice and learn how to use APIs (which requires an access key) in an application."
+    },
+
+    "status": "completed",
+    "img" : "../imgs/projects/listaDeReceitas.jpg",
+    "link":"https://github.com/gustavofdasilva/Projeto-ListaDeReceitas"
+
+},
+
+{
+    "title" : {
+        "ptbr": "Lista de tarefas",
+        "en":"To-do List"
+    },
+    "desc" : {
+        "ptbr": "Projeto feito para testar minhas habilidades com a interação com html e javascript adicionando dinamicamente elementos.",
+        "en":"Project made to test my skills in interacting with HTML and JavaScript by dynamically adding elements."
+    },
+
+    "status": "completed",
+    "img" : "../imgs/projects/todo-list.png",
+    "link":"https://gustavofdasilva.github.io/Projeto-lista-de-tarefas/"
+    
+},
+
+{
+        "title" : {
+
+            "ptbr": "Clima Tempo",
+            "en":"Weather App"
+        },
+
+        "desc" : {
+
+            "ptbr": "Projeto feito para entender de forma prática o funcionamento de consumir uma API gratuita e utilizar as informações na página.",
+            "en": "Project designed to practically understand how consuming a free API works and using the information on the page."
+        },
+
+        "status": "completed",
+        "img" : "../imgs/projects/Weather.png",
+        "link":"https://gustavofdasilva.github.io/Projeto-ClimaTempoAPI/"
+    
+},
+
+{
+    "title" : {
+        "ptbr": "Aplicativo de Anotações",
+        "en":"Notes App"
+    },
+
+    "desc" : {
+        "ptbr": "Projeto rápido feitos em react native para testar e relembrar recursos que havia aprendido antes.",
+        "en": "Quick project made in React Native to test and remember resources I had learned before."
+    },
+
+    "status": "completed",
+    "img" : "../imgs/projects/noteapp.jpg",
+    "link":"https://github.com/gustavofdasilva/Projeto-notesApp-reactNative"
+
+},
+
+{
+    "title" : {
+        "ptbr": "Calculadora (Aplicativo)",
+        "en":"Calculator (App)"
+    },
+
+    "desc" : {
+        "ptbr": "Projeto rápido feitos em react native para praticar a confecção de layouts em grid e adquirir valor dos inputs",
+        "en":"Quick project made in React Native to practice creating grid layouts and acquire value from inputs"
+    },
+
+    "status": "completed",
+    "img" : "../imgs/projects/calculatorapp.jpg",
+    "link":"https://github.com/gustavofdasilva/Projeto-calculadora-reactNative"
+
+},
+
+{
+    "title": {
+        "ptbr": "Calculadora simples",
+        "en":"Simple Calculator"
+    },
+    "desc": {
+        "ptbr": "Projeto feito para praticar o layout e interação do JS com html.",
+        "en":"Project made to practice the layout and interaction of JS with HTML."
+    },
+    "status":"completed",
+    "img":"../imgs/projects/calculator.png",
+    "link":"https://gustavofdasilva.github.io/Projeto-calculadora-js/"
+},
+
+{
+    "title" : {
+        "ptbr": "50 projects",
+        "en":"50 projects"
+    },
+
+    "desc" : {
+        "ptbr": "Projeto rápidos feitos para testar as possibilidades de modelos de sites.",
+        "en":"Quick projects designed to test the possibilities of website models."
+    },
+
+    "status": "inProgress",
+    "img" : "../imgs/projects/50days.png",
+    "link":"https://gustavofdasilva.github.io/Projeto-50projetos/"
+
+},
+
+{
+        
+    "title": {
+        "ptbr": "Clone da Hulu",
+        "en":"Hulu Clone"
+    },
+
+    "desc": {
+        "ptbr": "Projeto feito para praticar o CSS, interatividade com o usuário e minha habilidade para fazer sites baseado em um modelo já existente. (atualmente só fiz o porte para mobile).",
+        "en":"Project made to practice CSS, user interactivity and my ability to create websites based on an existing model. (currently I only ported to mobile)."
+    },
+
+    "status":"inProgress",
+    "img":"../imgs/projects/hulu.png",
+    "link":"https://gustavofdasilva.github.io/Projetos-diversos/copies/hulu/"
+    
+}
+    
+]
