@@ -18,7 +18,7 @@ function App() {
       <section id='land' className='visible'>
         <h1>Gustavo F. <br/> Silva</h1>
         <aside>
-          <p>Frontend/Mobile Developer</p>
+          <p>Backend Focused Fullstack Developer</p>
           <a href="/GustavoSilva_CV.pdf" download={true}>
             {infos.Curriculum}
           </a>
@@ -36,29 +36,19 @@ function App() {
             </ul>
         
         <h3>{infos.Skills}</h3>
-          <p className="list-title">{infos.SkillsText[0].text}</p>    
             <ul>    
+                <li>{infos.SkillsText[0].text}</li>
+                <li>{infos.SkillsText[1].text}</li>
                 <li>{infos.SkillsText[2].text}</li>
                 <li>{infos.SkillsText[3].text}</li>
                 <li>{infos.SkillsText[4].text}</li>
                 <li>{infos.SkillsText[5].text}</li>
-                <li>...</li>
-            </ul>
-
-          <p className="list-title">{infos.SkillsText[6].text}</p>    
-            <ul>    
                 <li>{infos.SkillsText[7].text}</li>
                 <li>{infos.SkillsText[8].text}</li>
                 <li>{infos.SkillsText[9].text}</li>
-                <li>...</li>
-            </ul>
-
-          <p className="list-title">{infos.SkillsText[10].text}</p>
-            <ul>
                 <li>{infos.SkillsText[11].text}</li>
                 <li>{infos.SkillsText[12].text}</li>
                 <li>{infos.SkillsText[13].text}</li>
-                <li>{infos.SkillsText[14].text}</li>
                 <li>...</li>
             </ul>
         <h3>{infos.Techs}</h3>
