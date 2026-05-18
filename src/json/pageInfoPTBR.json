@@ -3,6 +3,7 @@
   "AboutTitle": "Sobre mim",
   "AboutText": "Desenvolvedor Full Stack com foco em backend, atualmente morando em São Paulo, Brasil, e cursando Bacharelado em Engenharia de Tecnologia. Apaixonado por backend engineering, sistemas escaláveis, arquitetura de software e desenvolvimento de APIs. Possuo experiência no desenvolvimento de APIs REST, sistemas de autenticação e aplicações full stack utilizando Golang, Node.js, PostgreSQL, Docker e tecnologias modernas JavaScript. Atualmente estou focado em aprofundar conhecimentos em arquitetura backend, observabilidade, fluxos de autenticação e desenvolvimento de aplicações inspiradas em ambientes reais de produção. Você pode conhecer mais sobre mim no meu",
 
+  "Language": "Idioma",
   "Languages": "Idiomas",
 
   "LanguagesText": [

@@ -3,6 +3,7 @@
   "AboutTitle": "About Me",
   "AboutText": "Backend-focused Full Stack Developer from Brazil, currently based in São Paulo and pursuing a Bachelor's degree in Technology Engineering. Passionate about backend engineering, scalable systems, software architecture, and API development. Experienced in building REST APIs, authentication systems, and full stack applications using Golang, Node.js, PostgreSQL, Docker, and modern JavaScript technologies. Currently focused on improving backend architecture skills, observability, authentication flows, and production-inspired application development. You can learn more about me on my",
 
+  "Language": "Language",
   "Languages": "Languages",
 
   "LanguagesText": [
