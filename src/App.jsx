@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import './styles/style.css'
 import './script/main'
 import projectInfo from "./json/projectsInfo.json";
@@ -9,16 +10,53 @@ import enTranslate from './json/pageInfoEN.json'
 
 function App() {
 
-  const userLanguage = navigator.language 
-  console.log(userLanguage)
-  const infos = userLanguage == "pt-BR" ? ptbrTranslate : enTranslate
+  const browserLanguage = navigator.language.startsWith('pt') ? 'ptbr' : 'en'
+  const [language, setLanguage] = useState(browserLanguage)
+  const [dropdownOpen, setDropdownOpen] = useState(false)
+  const infos = language === 'ptbr' ? ptbrTranslate : enTranslate
+  const isPt = language === 'ptbr'
+
+  const languageOptions = [
+    { value: 'en', label: 'English' },
+    { value: 'ptbr', label: 'Português' }
+  ]
+
+  const currentLanguageLabel = languageOptions.find(option => option.value === language)?.label || 'English'
+
+  const toggleDropdown = () => setDropdownOpen((prev) => !prev)
+  const selectLanguage = (value) => {
+    setLanguage(value)
+    setDropdownOpen(false)
+  }
 
   return (
     <>
       <section id='land' className='visible'>
+        <div className='language-selector'>
+          <button type='button' className='language-selector-button' onClick={toggleDropdown} aria-haspopup='listbox' aria-expanded={dropdownOpen}>
+            <span>{infos.Language}</span>
+            <strong>{currentLanguageLabel}</strong>
+          </button>
+          {dropdownOpen && (
+            <ul className='language-selector-options'>
+              {languageOptions.map((option) => (
+                <li key={option.value}>
+                  <button
+                    type='button'
+                    className='language-selector-option'
+                    role='menuitem'
+                    onClick={() => selectLanguage(option.value)}
+                  >
+                    {option.label}
+                  </button>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
         <h1>Gustavo F. <br/> Silva</h1>
         <aside>
-          <p>Frontend/Mobile Developer</p>
+          <p>Backend Focused Fullstack Developer</p>
           <a href="/GustavoSilva_CV.pdf" download={true}>
             {infos.Curriculum}
           </a>
@@ -36,29 +74,19 @@ function App() {
             </ul>
         
         <h3>{infos.Skills}</h3>
-          <p className="list-title">{infos.SkillsText[0].text}</p>    
             <ul>    
+                <li>{infos.SkillsText[0].text}</li>
+                <li>{infos.SkillsText[1].text}</li>
                 <li>{infos.SkillsText[2].text}</li>
                 <li>{infos.SkillsText[3].text}</li>
                 <li>{infos.SkillsText[4].text}</li>
                 <li>{infos.SkillsText[5].text}</li>
-                <li>...</li>
-            </ul>
-
-          <p className="list-title">{infos.SkillsText[6].text}</p>    
-            <ul>    
                 <li>{infos.SkillsText[7].text}</li>
                 <li>{infos.SkillsText[8].text}</li>
                 <li>{infos.SkillsText[9].text}</li>
-                <li>...</li>
-            </ul>
-
-          <p className="list-title">{infos.SkillsText[10].text}</p>
-            <ul>
                 <li>{infos.SkillsText[11].text}</li>
                 <li>{infos.SkillsText[12].text}</li>
                 <li>{infos.SkillsText[13].text}</li>
-                <li>{infos.SkillsText[14].text}</li>
                 <li>...</li>
             </ul>
         <h3>{infos.Techs}</h3>
@@ -77,14 +105,24 @@ function App() {
       <section className="projects">
         <h2>{infos.Projects}</h2>
         {projectInfo.map((element)=>{
+          const title = isPt ? element.title.ptbr : element.title.en
+          const description = isPt ? element.desc.ptbr : element.desc.en
+          let statusText = ""
+
+          if (element.status === "completed") {
+            statusText = isPt ? "Completo" : "Completed"
+          } else {
+            statusText = isPt ? "Em progresso" : "In progress"
+          }
+
           return(
             <a key={projectInfo.indexOf(element)} href={element.link} className='project' target='_blank'>
               <div className='project'>
                 <div style={{backgroundImage:`url(${element.img})`}} ></div>
                 <div>
-                  <h3>{userLanguage == 'pt-BR' ? element.title.ptbr: element.title.en}</h3>
-                  <p>{userLanguage == 'pt-BR' ? element.desc.ptbr:element.desc.en}</p>
-                  <p className={element.status}>{element.status == "completed"?"Completo":"Em progresso"}</p>
+                  <h3>{title}</h3>
+                  <p>{description}</p>
+                  <p className={element.status}>{statusText}</p>
                 </div>
               </div>
             </a>

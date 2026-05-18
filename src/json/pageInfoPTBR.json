@@ -1,91 +1,107 @@
 {
-    "Curriculum": "Currículo",
-    "AboutTitle":"Sobre mim",
-    "AboutText":"Sou um desenvolvedor de sites e de aplicativos mobile em busca da minha primeira oportunidade nesse mercado. Sou brasileiro, morando em São Paulo, tenho 18 anos e atualmente estou fazendo graduação em engenharia de software, estudando e me aperfeiçoando nessa área! Possuo sólidos conhecimentos em HTML e CSS e conhecimento intermediário em JS e React Native. Atualmente, meus principais interesses em áreas de desenvolvimento são de desenvolvimento web e desenvolvimento de aplicativos. Você pode conferir mais sobre mim no meu",
+  "Curriculum": "Currículo",
+  "AboutTitle": "Sobre mim",
+  "AboutText": "Desenvolvedor Full Stack com foco em backend, atualmente morando em São Paulo, Brasil, e cursando Bacharelado em Engenharia de Tecnologia. Apaixonado por backend engineering, sistemas escaláveis, arquitetura de software e desenvolvimento de APIs. Possuo experiência no desenvolvimento de APIs REST, sistemas de autenticação e aplicações full stack utilizando Golang, Node.js, PostgreSQL, Docker e tecnologias modernas JavaScript. Atualmente estou focado em aprofundar conhecimentos em arquitetura backend, observabilidade, fluxos de autenticação e desenvolvimento de aplicações inspiradas em ambientes reais de produção. Você pode conhecer mais sobre mim no meu",
 
-    "Languages": "Idiomas",
-    "LanguagesText": [ 
-        {
-            "text":"Português (Nativo)"
-        },
-        {
-            "text":"Inglês (Avançado)"
-        }
-    ],
-    "Skills": "Habilidades",
-    "SkillsText": [
-        {
-            "text":"Desenvolvimento Web"
-        },
-        {
-            "text":"Landing pages"
-        },
-        {
-            "text":"Páginas de portfolio simples"
-        },
-        {
-            "text":"Uso e aplicação de APIs no site"
-        },
-        {
-            "text":"Criação de APIs simples"
-        },
-        {
-            "text":"Responsividade nos dispositivos"
-        },
-        {
-            "text":"Desenvolvimento Mobile (React Native)"
-        },
-        {
-            "text":"Criação e reutilização otimizada de componentes"
-        },
-        {
-            "text":"Uso e aplicação de APIs no app"
-        },
-        {
-            "text":"Uso do NPM e bibliotecas para utilizar no app"
-        },
-        {
-            "text":"Design"
-        },
-        {
-            "text":"Criação de logo"
-        },
-        {
-            "text":"Bases do UI/UX nas aplicações"
-        },
-        {
-            "text":"Uso do Adobe Photoshop e Illustrator"
-        },
-        {
-            "text":"Breve conhecimento do Figma"
-        }
-    ],
-    "Techs":"Tecnologias/Softwares que já estudei",
-    "TechsText":[
-        {
-            "text":"Html e CSS (Intermediário)"
-        },
-        {
-            "text":"Javascript (Intermediário)"
-        },
-        {
-            "text":"Adobe Illustrator (Intermediário)"
-        },
-        {
-            "text":"React Native (Intermediário)"
-        },
-        {
-            "text":"Node.js (Iniciante)"
-        },
-        {
-            "text":"C# (Iniciante)"
-        },
-        {
-            "text":"Java (Iniciante)"
-        },
-        {
-            "text":"SQL (Iniciante)"
-        }
-    ],
-    "Projects":"Projetos"
+  "Language": "Idioma",
+  "Languages": "Idiomas",
+
+  "LanguagesText": [
+    {
+      "text": "Português (Nativo)"
+    },
+    {
+      "text": "Inglês (Avançado)"
+    }
+  ],
+
+  "Skills": "Habilidades",
+
+  "SkillsText": [
+    {
+      "text": "Desenvolvimento backend"
+    },
+    {
+      "text": "Desenvolvimento de APIs REST"
+    },
+    {
+      "text": "Sistemas de autenticação e autorização"
+    },
+    {
+      "text": "JWT e fluxos de refresh token"
+    },
+    {
+      "text": "Modelagem de banco de dados e SQL"
+    },
+    {
+      "text": "Arquitetura de software em camadas"
+    },
+    {
+      "text": "Logs estruturados e observabilidade"
+    },
+    {
+      "text": "Docker e aplicações conteinerizadas"
+    },
+    {
+      "text": "Desenvolvimento frontend responsivo"
+    },
+    {
+      "text": "Desenvolvimento de aplicações Full Stack"
+    },
+    {
+      "text": "Integração de APIs"
+    },
+    {
+      "text": "Desenvolvimento mobile com React Native"
+    },
+    {
+      "text": "Otimização de performance"
+    },
+    {
+      "text": "Reutilização de componentes e clean code"
+    }
+  ],
+
+  "Techs": "Tecnologias",
+
+  "TechsText": [
+    {
+      "text": "Golang"
+    },
+    {
+      "text": "Node.js"
+    },
+    {
+      "text": "JavaScript / TypeScript"
+    },
+    {
+      "text": "React"
+    },
+    {
+      "text": "React Native"
+    },
+    {
+      "text": "Vue.js"
+    },
+    {
+      "text": "PostgreSQL"
+    },
+    {
+      "text": "SQL"
+    },
+    {
+      "text": "Docker"
+    },
+    {
+      "text": "JWT Authentication"
+    },
+    {
+      "text": "Git & GitHub"
+    },
+    {
+      "text": "HTML & CSS"
+    }
+  ],
+
+  "Projects": "Projetos"
 }
