@@ -57,7 +57,7 @@ function App() {
         <h1>Gustavo F. <br/> Silva</h1>
         <aside>
           <p>Backend Focused Fullstack Developer</p>
-          <a href="/GustavoSilva_CV.pdf" download={true}>
+          <a href="/GustavoSilva_CV.docx" download={true}>
             {infos.Curriculum}
           </a>
         </aside>
